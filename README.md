@@ -12,7 +12,7 @@ RGBLevels.exe <red> <green> <blue>
 RGBLevels.exe 128 64 0
 ```
 
-Download [here](https://github.com/suchipi/RGBLevels/releases/download/0.0.1/RGBLevels.exe)
+Download [here](https://github.com/suchipi/RGBLevels/releases/download/0.0.2/RGBLevels.exe)
 
 ## Notes/Troubleshooting
 
