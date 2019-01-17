@@ -43,39 +43,39 @@
       // 
       this.trackBarRed.LargeChange = 15;
       this.trackBarRed.Location = new System.Drawing.Point(64, 12);
-      this.trackBarRed.Maximum = 127;
+      this.trackBarRed.Maximum = 255;
       this.trackBarRed.Name = "trackBarRed";
       this.trackBarRed.Size = new System.Drawing.Size(260, 45);
       this.trackBarRed.SmallChange = 5;
       this.trackBarRed.TabIndex = 0;
       this.trackBarRed.TickFrequency = 15;
-      this.trackBarRed.Value = 127;
+      this.trackBarRed.Value = 255;
       this.trackBarRed.Scroll += new System.EventHandler(this.trackBarRed_Scroll);
       // 
       // trackBarBlue
       // 
       this.trackBarBlue.LargeChange = 15;
       this.trackBarBlue.Location = new System.Drawing.Point(64, 114);
-      this.trackBarBlue.Maximum = 127;
+      this.trackBarBlue.Maximum = 255;
       this.trackBarBlue.Name = "trackBarBlue";
       this.trackBarBlue.Size = new System.Drawing.Size(260, 45);
       this.trackBarBlue.SmallChange = 5;
       this.trackBarBlue.TabIndex = 2;
       this.trackBarBlue.TickFrequency = 15;
-      this.trackBarBlue.Value = 127;
+      this.trackBarBlue.Value = 255;
       this.trackBarBlue.Scroll += new System.EventHandler(this.trackBarBlue_Scroll);
       // 
       // trackBarGreen
       // 
       this.trackBarGreen.LargeChange = 15;
       this.trackBarGreen.Location = new System.Drawing.Point(64, 63);
-      this.trackBarGreen.Maximum = 127;
+      this.trackBarGreen.Maximum = 255;
       this.trackBarGreen.Name = "trackBarGreen";
       this.trackBarGreen.Size = new System.Drawing.Size(260, 45);
       this.trackBarGreen.SmallChange = 5;
       this.trackBarGreen.TabIndex = 1;
       this.trackBarGreen.TickFrequency = 15;
-      this.trackBarGreen.Value = 127;
+      this.trackBarGreen.Value = 255;
       this.trackBarGreen.Scroll += new System.EventHandler(this.trackBarGreen_Scroll);
       // 
       // labelRed

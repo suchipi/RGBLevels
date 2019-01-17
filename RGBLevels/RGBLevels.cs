@@ -48,7 +48,7 @@ namespace RGBLevels
       short* idx = ramp;
       for (int i = 0; i < 256; i++)
       {
-        int arrayVal = i * (red + 128);
+        int arrayVal = i * (red);
         if (arrayVal > 65535)
           arrayVal = 65535;
         *idx = (short)arrayVal;
@@ -56,7 +56,7 @@ namespace RGBLevels
       }
       for (int i = 0; i < 256; i++)
       {
-        int arrayVal = i * (green + 128);
+        int arrayVal = i * (green);
         if (arrayVal > 65535)
           arrayVal = 65535;
         *idx = (short)arrayVal;
@@ -64,7 +64,7 @@ namespace RGBLevels
       }
       for (int i = 0; i < 256; i++)
       {
-        int arrayVal = i * (blue + 128);
+        int arrayVal = i * (blue);
         if (arrayVal > 65535)
           arrayVal = 65535;
         *idx = (short)arrayVal;
